@@ -1,0 +1,56 @@
+body, html {
+    
+}
+.bgbelakang {
+    background-image: url('../img/1.png');
+      background-size: cover; /* Mengisi seluruh area */
+      background-position: center; /* Pusat gambar */
+      background-repeat: no-repeat;
+      width: 98%;
+      height: 100vh;
+
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: white;
+      text-align: center;
+      font-family: Arial, sans-serif;
+       
+    }
+
+.bgbelakang h1 {
+  position: relative; 
+  font-size: 3em;
+  font-weight: 800;
+  z-index: 1;
+  text-shadow: 0px 5px 20px rgb(255, 255, 255);
+}
+
+.bgbelakang .btn-telusuri {
+  margin-top: 200px;
+  position: absolute;
+  background-color: #10AAFF; 
+  color: white; 
+  text-decoration: none; 
+  padding: 10px 20px; 
+  border-radius: 5px; 
+  font-size: 1.2em; 
+  font-weight: bold; 
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.3); 
+  transition: all 0.3s ease; 
+}
+
+.bgbelakang .btn-telusuri:hover {
+  background-color: #007ACC; 
+  box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.5); 
+  transform: scale(1.05);
+}
+
+
+.aboutt {
+  transition: all 0.3s ease-in-out;
+}
+.aboutt:hover {
+  transform: translateY(-20px); /* Mengangkat elemen */
+      box-shadow: 0 8px 15px rgba(0, 0, 0, 0.621);
+}
